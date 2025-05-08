@@ -3,13 +3,13 @@ from crewai import Agent, Task, Crew
 from langchain_openai import ChatOpenAI
 
 # Set the API Base URL to OpenRouter
-os.environ["OPENAI_API_BASE"] = "https://openrouter.ai/api/v1"
+os.environ["OPENAI_API_BASE"] = ""
 # Use your OpenRouter API key
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "add your api key"
 
 # Create a chat model
 llm = ChatOpenAI(
-    model="openai/gpt-3.5-turbo",  # OpenRouter model name format
+    model="define your models",  # OpenRouter model name format
     temperature=0.7
 )
 
